@@ -33,7 +33,6 @@ Interesting Insights:
   5. Discussions towards supporting those affected by the Lion Air incident suggested that proactive efforts to address customer concerns and demonstrate commitment can yield positive outcomes.
   6. Despite the gravity of crash 2, both public sentiment and stock prices began to regain strength about 1 week later due to the above mentioned point.
 
-
 Blog:
 We have posted a blog on Medium, giving an overview of the study and explaining our interpretations for each analysis. Following is the link to the blog.
 Link --> https://medium.com/@devinachhajer24/crash-landing-on-wall-street-9e8d11cc8bc5
