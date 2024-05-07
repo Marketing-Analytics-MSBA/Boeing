@@ -1,6 +1,5 @@
 # Crash Landing on Wall Street
 ## Investigating the Causal Relationship Between Crashes and Market Performance for Boeing 737!
-## Authors : Devina Chhajer ( @DevinaChhajer ), Diya Patel ( @Autumn-01 ), Ishika Gupta ( @IshG31 ), Kaitlyn Ho ( @ktho2 ), Tanvi Lamba ( @tanvilamba )
 ## Authors : <a href="https://github.com/DevinaChhajer"> Devina Chhajer</a>, <a href="https://github.com/Autumn-01"> Diya Patel</a>, <a href="https://github.com/IshG31"> Ishika Gupta</a>, <a href="https://github.com/ktho2 "> Kaitlyn Ho</a>, <a href="https://github.com/tanvilamba"> Tanvi Lamba</a>
   <img href="Github profile image source"> 
 </a>  ), Diya Patel ( @Autumn-01 ), Ishika Gupta ( @IshG31 ), Kaitlyn Ho ( @ktho2 ), Tanvi Lamba ( @tanvilamba )
