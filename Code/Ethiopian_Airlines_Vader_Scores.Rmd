@@ -1,0 +1,59 @@
+---
+title: "Ethiopian_Airlines_Vader_Scores"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Install Necessary Packages
+```{r}
+library(ggplot2)
+library(dplyr)
+library(vader)
+library(tidyverse)
+```
+
+Import Data 
+```{r}
+crash2 <- read_csv("crash2.csv")
+crash2 %>% head()
+```
+
+Brief EDA
+```{r}
+nrow(crash2)
+sapply(crash2, class)
+```
+
+Change Social Media & News to Public
+```{r}
+crash2$Type <- ifelse(crash2$Type %in% c("News", "Social Media"), "Public", crash2$Type)
+```
+
+Compute Vader/Sentiment Scores
+```{r}
+vscores <- crash2$Text %>% lapply(get_vader)
+```
+
+```{r}
+#Add the sentiment scores to the original DataFrame
+crash2 <- crash2 %>% mutate(
+  compound = vscores %>% sapply(function(v) { as.numeric(v["compound"]) }),
+  pos = vscores %>% sapply(function(v) { as.numeric(v["pos"]) }),
+  neu = vscores %>% sapply(function(v) { as.numeric(v["neu"]) }),
+  neg = vscores %>% sapply(function(v) { as.numeric(v["neg"]) }),
+)
+crash2 %>% head()
+```
+
+Export File
+```{r}
+write.csv(crash2, file = "crash2_sentiment_final.csv", row.names = FALSE)
+```
+
+
+
+
+
