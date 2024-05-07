@@ -2,8 +2,7 @@
 ## Investigating the Causal Relationship Between Crashes and Market Performance for Boeing 737!
 ### Authors : <a href="https://github.com/DevinaChhajer"> Devina Chhajer</a>, <a href="https://github.com/Autumn-01"> Diya Patel</a>, <a href="https://github.com/IshG31"> Ishika Gupta</a>, <a href="https://github.com/ktho2 "> Kaitlyn Ho</a>, <a href="https://github.com/tanvilamba"> Tanvi Lamba</a>
   <img href="Github profile image source"> 
-</a>  Devina Chhajer ( @DevinaChhajer ), Diya Patel ( @Autumn-01 ), Ishika Gupta ( @IshG31 ), Kaitlyn Ho ( @ktho2 ), Tanvi Lamba ( @tanvilamba )
-
+</a>  
 Description: 
 Boeing is the leading manufacturer of commercial aircrafts and supplies to majority of the airline companies today. If you are travelling by air, there's a high chance you are travelling in a Boeing aircraft. So, for such a company to have frequent crash incidents, emergency landings and part blowouts is quite concerning. With this project, we are investigating the economic and social impact these kind of incidents have by performing Causal Analysis, Sentiment Analysis and Topic Modelling techniques on the data we collected for 3 specific incidents.
 A special focus is laid on analyzing Crash 2 by performing causal, stock price stickiness, topic modelling and sentiment analysis for company and government releases following this event.
