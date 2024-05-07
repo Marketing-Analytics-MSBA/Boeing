@@ -7,7 +7,7 @@ Description:
 Boeing is the leading manufacturer of commercial aircrafts and supplies to majority of the airline companies today. If you are travelling by air, there's a high chance you are travelling in a Boeing aircraft. So, for such a company to have frequent crash incidents, emergency landings and part blowouts is quite concerning. With this project, we are investigating the economic and social impact these kind of incidents have by performing Causal Analysis, Sentiment Analysis and Topic Modelling techniques on the data we collected for 3 specific incidents.
 A special focus is laid on analyzing Crash 2 by performing causal, stock price stickiness, topic modelling and sentiment analysis for company and government releases following this event.
 
-Incidents covered:  
+</n>Incidents covered:  
   1. Crash 1: Lion Air Flight 610 on Oct 29, 2018 - no survivors
   2. Crash 2: Ethiopian Airlines Flight 302 on Mar 10, 2019 - no survivors
   3. Incident 3: Alaska Airlines Flight 1282 on Jan 5, 2024 - door blowout
